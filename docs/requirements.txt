@@ -1,0 +1,17 @@
+Flask==1.1.1
+gunicorn==19.9.0
+itsdangerous==1.1.0
+Jinja2==2.10.1
+MarkupSafe==1.1.1
+Werkzeug==0.15.5
+numpy==1.18.4
+scipy>=0.15.1
+scikit-learn==0.22.2.post1
+matplotlib==3.2.1
+pandas==1.0.3
+tensorflow==1.15.2
+seaborn==0.10.1
+keras==2.3.1
+werkzeug==1.0.1
+gevent==20.5.0
+

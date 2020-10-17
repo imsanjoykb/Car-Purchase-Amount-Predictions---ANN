@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!--meta tags-->
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="Car Puchase Amount Prediction">
+    <meta name="keywords" content="rahul bordoloi, onepage, developer, resume, cv, personal, portfolio, personal resume, clean, modern, machine learning, ml, dl, deep learning">
+    <meta name="author" content="Rahul Bordoloi">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link href="/your-path-to-fontawesome/css/all.css" rel="stylesheet">
+    <!--load all styles -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <!--Template name-->
+    <title>Car Purchase Amount Prediction</title>
+    <!-- add icon link -->
+    <!--Favicon-->
+    <link rel="icon" href="android-chrome-512x512.png" ,type="image/x-icon/gif" sizes="16x50">
+    <link rel="manifest" href="favicon/manifest.json">
+
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+
+    <!--Font Awesome css-->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+    <!--Bootstrap css-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!--Animated headline css-->
+    <link rel="stylesheet" href="css/jquery.animatedheadline.css">
+
+    <!--Owl carousel css-->
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.default.css">
+
+    <!--Magnific popup css-->
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <!--line icon css-->
+    <link rel="stylesheet" href="css/line-icons.min.css">
+
+    <!--Theme css-->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--Responsive css-->
+    <link rel="stylesheet" href="css/responsive.css">
+
+</head>
+
+<body>
+
+    <!--Preloader starts-->
+
+    <div class="loader_bg">
+        <div class="loader"></div>
+    </div>
+
+    <!--Preloader ends-->
+
+    <!--Navigation area starts-->
+
+    <header class="nav-area navbar-fixed-top">
+        <div class="container">
+            <div class="row">
+                <!--main menu starts-->
+
+                <div class="col-md-12">
+                    <div class="main-menu">
+                        <div class="navbar navbar-cus">
+                            <div class="navbar-header">
+                                <a href="https://rahulbordoloi.me" target="_blank"><span class="logo">RAHUL<span> BORDOLOI</span></span></a>
+                                <!--change logo name-->
+                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            </div>
+
+                            <div class="navbar-collapse collapse">
+                                <nav>
+                                    <ul class="nav navbar-nav navbar-right">
+                                        <li class="active"><a class="smooth-menu" href="#about">About</a></li>
+                                        <li><a class="smooth-menu" href="#model">Model</a></li>
+                                        <li><a href="https://github.com/rahulbordoloi/Car-Purchase-Amount-Predictions-using-ANN" target="_blank">Repository</a></li>
+                                        <li><a class="smooth-menu" href="#contact">Contact</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--main menu ends-->
+            </div>
+        </div>
+    </header>
+
+    <!--Navigation area ends-->
+
+    <!--About starts-->
+
+    <div id="about" class="skills-area section-padding">
+        <div class="container">
+            <div class="row">
+                <br><br>
+                <div class="section-title">
+                    <h2>Car Purchase Amount <span>Prediction</span></h2><br>
+                </div>
+            </div>
+            <div class="row">
+                <h4 class="w3-text-white">
+                    <i>It's a Basic Deep Learning Project using Artificial Neural Network .</i><br> <br><b>Problem Statement</b> : We are supposed to develop a predictive model which will predict the Total Amount in Dollars that the <br><br>customers
+                    are willing to pay to purchase a Car given the following attributes: Gender, Age, Annual Salary, Credit Card Debt, <br><br> Net Worth. <br><br> Our Task : To Predict the Total Amount in Dollars that they're going to pay for a Car.
+                    This a Classic Regression Task and I've<br><br> developed this model using Artificial Neural Network with 3 Dense Layers in a Sequential Manner. Here, The Optimizer being <br><br>used is "Adam" and loss is measured with accordance
+                    to "mean_squared_error".<br><br> Technological Stack : Python , Google Colab (Notebook), Tensorflow (v1.x). For More Details, refer to Repository.</h4>
+                <div class="row">
+                    <div class="col-md-6 col-xs-6">
+                        <img src="download.png">
+                    </div>
+                    <div class="col-md-6 col-xs-6">
+                        <br><br>
+                        <h4 class="w3-text-white">Here's the Model Loss Progression During Training/Validation.</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--About ends-->
+
+    <!--Experience area starts-->
+
+    <div id="model" class="experience-area section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                    <h2>Model <span>Prediction</span></h2>
+                </div>
+            </div>
+
+            <div class="login">
+                <h2>Predict The Purchase Amount</h2>
+                <hr style="width:200px" class="w3-opacity">
+                <br>
+                <!-- Main Input For Receiving Query to our ML -->
+                <form action="{{ url_for('predict')}}" method="post">
+                    <input type="text" name="gender" placeholder="Gender" required="required" />
+                    <input type="text" name="age" placeholder="Age in integers" required="required" />
+                    <input type="text" name="an_sal" placeholder="Annual Salary" required="required">
+                    <input type="text" name="ccd" placeholder="Credit Card Debt" required="required" />
+                    <input type="text" name="netw" placeholder="Net Worth" required="required" />
+                </form>
+                <br>
+                <button type="submit" class="btn btn-primary">Predict</button>
+                <br>
+                <br> {{ prediction_text }}
+                <br><br><br>
+            </div>
+        </div>
+    </div>
+
+    <!--Experience area ends-->
+
+
+    <!--Contact Area Starts-->
+    <div id="contact" class="contact-area section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                    <h2>My <span>Contact</span></h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 box-contact-form">
+
+                    <div class="map-responsive">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7163.422112053176!2d91.77199277271956!3d26.14096253386393!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x375a5946fc2b506d%3A0x96bacc42dd830842!2sJamini%20Path%2C%20Kalyani%20Nagar%2C%20Kahilipara%2C%20Guwahati%2C%20Assam%20781019!5e0!3m2!1sen!2sin!4v1589976487554!5m2!1sen!2sin"
+                            width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                    </div>
+
+                </div>
+
+                <div class="col-xs-12 col-sm-12 col-md-5 col-md-offset-1">
+                    <div class="right-contact">
+                        <div class="right-contact-text">
+                            <i class="fa fa-male"></i>
+                            <h2>Name</h2>
+                            <p>Rahul Bordoloi</p>
+                            <!--edit here-->
+                        </div>
+                        <div class="right-contact-text">
+                            <i class="fa fa-map-marker"></i>
+                            <h2>Address / Street</h2>
+                            <p>14, Yamini Path Janakpur, Kahilipara, Guwahati- 19, Assam, IN</p>
+                            <!--edit here-->
+                        </div>
+                        <div class="right-contact-text">
+                            <i class="fa fa-phone"></i>
+                            <h2>Contact Number</h2>
+                            <p>+91-9864887529</p>
+                            <!--edit here-->
+                        </div>
+                        <div class="right-contact-text">
+                            <i class="fa fa-envelope"></i>
+                            <h2>E - Mail</h2>
+                            <p>rahulbordoloi24@gmail.com</p>
+                            <!--edit here-->
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!--Contact Area Ends-->
+
+    <!--Footer Area Starts-->
+
+    <div class="footer-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                    <a href="#" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+                    <br>
+                    <br>
+                    <p>&copy; All Rights Reserved By<a href="https://linkedin.com/in/rahulbordoloi" target="_blank" class="w3-hover-text-green"> Rahul Bordoloi</a></p>
+                    <!--edit here-->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Footer Area Ends-->
+
+
+
+    <!--Latest version JQuery-->
+    <script src="js/jquery-3.2.1.min.js"></script>
+
+    <!--Bootstrap js-->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!--Animated headline js-->
+    <script src="js/jquery.animatedheadline.js"></script>
+
+    <!--Magnific popup js-->
+    <script src="js/jquery.magnific-popup.js"></script>
+    <script src="js/custom.js"></script>
+
+    <!--Validator js-->
+    <script src="js/jquery.waypoints.js"></script>
+
+    <!--Counter up js-->
+    <script src="js/jquery.counterup.min.js"></script>
+
+    <!--imagesloaded js-->
+    <script src="js/imagesloaded.min.js"></script>
+
+    <!--isotope js-->
+    <script src="js/isotope.pkgd.min.js"></script>
+
+    <!--Owl Carousel js-->
+    <script src="js/owl.carousel.js"></script>
+
+    <!--Validator js-->
+    <script src="js/validator.js"></script>
+
+    <!--Contact js-->
+    <script src="js/contact.js"></script>
+
+    <!--Main js-->
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
