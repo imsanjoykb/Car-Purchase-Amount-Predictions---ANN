@@ -28,7 +28,7 @@ This a Classic Regression Problem and I've developed this model using Artificial
  ## Model Loss
  <img src="https://github.com/rahulbordoloi/Car-Purchase-Amount-Predictions/blob/master/docs/download.png">
  
- ## Contributing [![contributions welcome](https://github.com/imsanjoykb/Car-Purchase-Amount-Predictions---ANN/blob/main/docs/download.png)
+ ## Contributing [!contributions welcome](https://github.com/imsanjoykb/Car-Purchase-Amount-Predictions---ANN/blob/main/docs/download.png)
 
 If you are the helping and contributing one, your efforts and suggestion are always welcomed.
 ## Copyright : Sanjoy Biswas
