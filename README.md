@@ -31,4 +31,5 @@ This a Classic Regression Problem and I've developed this model using Artificial
  ## Contributing [![contributions welcome](https://github.com/imsanjoykb/Car-Purchase-Amount-Predictions---ANN/blob/main/docs/download.png)
 
 If you are the helping and contributing one, your efforts and suggestion are always welcomed.
+## Copyright : Sanjoy Biswas
  
